@@ -1,16 +1,44 @@
-# React + Vite
+# TuneFLow
+Nama  : Gilang Surya Agung
+NIM   : 123140187
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Deskripsi project
+TuneFlow adalah aplikasi pencarian musik modern yang memungkinkan Anda mencari lagu, album, dan artis menggunakan iTunes Search API (gratis, tanpa API key). Fitur utama termasuk preview audio 30 detik, playlist builder dengan localStorage, sort berdasarkan tanggal rilis atau harga, serta dark/light mode toggle.
 
-Currently, two official plugins are available:
+## Fitur Utama:
+Pencarian Real-time: Ketik keyword → fetch data dari iTunes API.
+Filter Media: Semua / Lagu / Album.
+Sort: Tanggal Rilis (terbaru dulu) atau Harga (termurah dulu).
+Preview Audio: Putar sample 30 detik langsung di browser.
+Playlist Builder: Tambah/hapus lagu, disimpan di localStorage (tetap ada setelah refresh).
+Dark/Light Mode: Toggle di pojok kanan atas dengan transisi halus.
+Responsive: Cocok untuk desktop & mobile.
+Loading & Error Handling: Spinner saat loading, pesan error jika gagal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Cara instalasi dan menjalankan
+## Prasyarat:
+Node.js (v18+)
+npm atau yarn
 
-## React Compiler
+## Langkah-langkah:
+1. Clone Proyek dari GitHub
+   git clone https://github.com/username/tuneflow.git
+cd tuneflow
+2. Install Semua Paket
+   npm install
+3. Jalankan Aplikasi (Localhost)
+   npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Link deployment
+  https://uts-pemweb-123140187.vercel.app/
 
-## Expanding the ESLint configuration
+# Screenshot aplikasi 
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/3fba5954-7cc0-4c01-98b7-587ffbfbb860" />
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/c93b1917-e364-4fad-8a35-01d4e37b592f" />
+<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/6103e604-479f-4fc5-b29e-55c66da0d0b5" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
